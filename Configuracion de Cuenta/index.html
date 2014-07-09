@@ -6,8 +6,65 @@
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<script type="text/javascript" src='js/prefixfree.js'></script>
+	<script type="text/javascript" src='js/interactivity.js'></script>
 </head>
 <body>
-	<script type="text/javascript" src='js/interactivity.js'></script>
+	<section class='contenedor'>
+		
+		<article class="datos-usuario-principal">
+			<figure class="usuario-imagen">
+				<img src="img/3.jpg">
+				<figcation class="usuario-descripcion">
+					<p>Empresa Logeada</p>
+				</figcation>
+			</figure>
+			<article class="datos-usuario">
+				<a  href="#" class="usuario-direccion">Dirección</a>
+				<a  href="#" class="telefono">Teléfono</a>
+				<a  href="#" class="propietario">Propietario</a>
+				<a  href="#" class="ciudad">Ciudad</a>	
+			</article>
+			<nav class="acciones-usuario">
+				<ul>
+					<li><a href="#">Nuevas Ofertas</a></li>
+					<li><a href="#">Ver Ofertas</a></li>
+					<li><a href="#">Cuenta</a></li>
+				</ul>
+			</nav>
+			<div class="usuario-calificacion">
+				<a class="estrellita">*</a>
+				<a class="estrellita">*</a>
+				<a class="estrellita">*</a>
+				<a class="estrellita">*</a>
+				<a class="estrellita">*</a>
+				<p>Total Puntos Recibidos</p>
+			</div>
+		</article>
+
+		<article class="configuracion-cuenta">
+			<h2 class="configuracion-titulo">Configuración de Cuenta</h2>
+			<section class='configuracion'>
+				<article class="configuracion-izquierda" />
+					<input type='text' placeholder='Nombre o Razon Socila' />
+					<input type='text' placeholder='Telefono' />
+					<input type='text' placeholder='Direccion' />
+					<input type='text' placeholder='Ciudad' /> 
+					<span>Selecciona la imagen de la empresa</span>
+					<input type='file' />
+					<button type='submit' />
+				</article>
+
+				<article class="configuracion-derecha">
+					<figure class="imagen-usuario">
+						<img src="img/3.jpg">
+						<figcaption>Cambiar Contraseña</figcaption>
+					</figure>
+					<input type='password' placeholder='Nueva Contraseña' /> 
+					<input type='password' placeholder='Repetir Contraseña' /> 
+				</article>
+			</section>
+		</article>
+		
+	</section>
 </body>
 </html>
