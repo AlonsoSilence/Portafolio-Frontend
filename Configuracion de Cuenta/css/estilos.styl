@@ -1,0 +1,80 @@
+@import "fuentes.styl"
+
+blanco = rgba(255,255,255,0.9)
+
+.configuracion-cuenta
+	width 50%
+
+.contenedor
+	position relative
+	background transparent
+	width 100%
+.datos-usuario-principal
+	background #222
+	text-align center
+	width 25%
+
+	.acciones-usuario
+		width 100%
+		ul 
+			margin 0
+			padding 0
+			width 100%
+			li 
+				width 100%
+				a
+					color blanco
+					display inline-block
+					font-style italic
+					text-decoration none
+					padding 1em 0
+					width 100%
+					&:hover
+						color black
+						background blanco
+						width 100%
+	.datos-usuario
+		width 100%
+
+		.datos
+			display block
+			border-bottom 1px solid blanco
+			color blanco
+			text-decoration none
+			text-align left
+			width 100%
+			&:hover
+				color black
+				background blanco
+	.usuario-calificacion
+		width 100%
+		.estrellita
+			background transparent
+			color blanco
+			display inline-block
+			font-size 1.8em
+			margin 0.7em 0
+			width 15%
+			&:hover
+				color black
+		p
+			color blanco
+			font-style italic
+	.usuario-imagen
+		background transparent
+		margin 0 0 0 6em
+		position relative
+		width 150px
+		img
+			border-radius 50%
+			width 100%
+		p
+			color blanco
+			font-style italic
+			width 100%
+		
+
+
+.datos-usuario-principal, configuracion-cuenta
+	vertical-align top
+	display inline-block
